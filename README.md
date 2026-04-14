@@ -48,6 +48,7 @@ asset allocation that maximizes risk-adjusted return.
 
 ## Project structure
 
+```
 PortfolioIQ/
 ├── src/
 │   ├── data_loader.py     # yfinance fetch + local caching
@@ -64,6 +65,7 @@ PortfolioIQ/
 ├── notebooks/             # EDA and walkthrough notebooks
 ├── config.yaml            # tickers, date range, parameters
 └── main.py                # single entry point
+```
 
 
 ---
