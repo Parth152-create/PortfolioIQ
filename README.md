@@ -4,7 +4,7 @@ A quantitative portfolio optimization engine built on **Modern Portfolio Theory 
 Given a set of equities, PortfolioIQ analyzes 5 years of historical data to find the optimal
 asset allocation that maximizes risk-adjusted return.
 
-![Monte Carlo Simulation](outputs/plots/monte_carlo.png)
+![Monte Carlo Simulation](docs/monte_carlo.png)
 
 ---
 
@@ -33,16 +33,16 @@ asset allocation that maximizes risk-adjusted return.
 | VaR (95%) | -3.87% | -1.68% |
 
 ### Max Sharpe allocation
-![Max Sharpe](outputs/plots/max_sharpe_portfolio.png)
+![Max Sharpe](docs/max_sharpe_portfolio.png)
 
 ### Min Variance allocation
-![Min Variance](outputs/plots/min_variance_portfolio.png)
+![Min Variance](docs/min_variance_portfolio.png)
 
 ### Asset correlation matrix
-![Correlation](outputs/plots/correlation_heatmap.png)
+![Correlation](docs/correlation_heatmap.png)
 
 ### Cumulative returns vs equal-weight benchmark
-![Cumulative](outputs/plots/cumulative_returns.png)
+![Cumulative](docs/cumulative_returns.png)
 
 ---
 
