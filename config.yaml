@@ -1,0 +1,21 @@
+portfolio:
+  tickers:
+    - AAPL
+    - MSFT
+    - GOOGL
+    - AMZN
+    - TSLA
+    - JPM
+    - JNJ
+    - V
+  start_date: "2020-01-01"
+  end_date: "2024-12-31"
+
+optimization:
+  risk_free_rate: 0.04        # 4% annual, approx current T-bill rate
+  n_frontier_points: 100      # points to plot on efficient frontier
+  n_monte_carlo: 10000        # simulated portfolios
+
+data:
+  cache_dir: "data/cache"
+  raw_dir: "data/raw"
